@@ -1,7 +1,4 @@
 
-# A Web3py interaction with my basic solidity smart contract deployed on Ropsten TestNet
+# Repository of all my solidity scripts and web3py
 
-# File structure =>
 
-1. SimpleStorage.sol => actual solidity smart contract
-2. Deploy.py => Web3Py deployment implementation
