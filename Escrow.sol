@@ -54,11 +54,11 @@ contract Escrow{
         newbalance = existingamount - amtwithdraw; //subtract existing from amount to be withdrawn
         DepositMap[owner] = newbalance; //update the new balance for owner
         payee.transfer(amtwithdraw); //send the amount
-
-
-
-
         
+    }
+
+    function fetchBalance(address _adr) public view returns(uint){
+        return DepositMap[_adr];
     }
 
     
